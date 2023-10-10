@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <h1 id="first-title">Calculadora IMC</h1>
+
+    <div id="div-calculadora">
+        <div id="div-text-name">
+            <asp:Label runat="server" Text="nome">Nome:</asp:Label>
+        </div>
+
+        <div id="div-input-name">
+            <input id="input-name" type="text" placeholder="   Digite seu primeiro nome"/>
+        </div>
+
+        <div id="div-text-height">
+            <asp:Label runat="server" Text="altura">Altura:</asp:Label>
+        </div>
+
+        <div id="div-input-height">
+            <input id="input-height" type="text" placeholder="   Digite sua altura em cm: Ex.:195" />
+        </div>
+
+        <div id="div-text-weight">
+            <asp:Label runat="server" Text="peso" >Peso:</asp:Label>            
+        </div>
+
+        <div id="div-input-weight">
+            <input id="input-weight" type="text" placeholder="   Digite seu peso em kg: Ex.:70,5" />
+        </div>
+
+        <div id="div-final-result">
+
+        </div>
+
+        <div id="div-end-buttons">
+            
+                <input id="Submit-calc" type="submit" value="Calcular" />
+            
+                <input id="Submit-file-generator" type="submit" value="Gerar arquivo" />            
+
+        </div>
+        
+
+    </div>
+
+
+</body>
+</html>
